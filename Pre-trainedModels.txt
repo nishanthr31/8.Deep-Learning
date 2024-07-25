@@ -1,0 +1,61 @@
+
+Pre-trained models for Object Detection.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Mask R-CNN - is a flexible framework developed for the purpose of object instance segmentation. Example: Tesla Car's ,Drone for agriculture. [Keras: MS COCO] 
+YOLOv2 - Is a object detection framework Ex: Animal or fruit detection,Self driving cars [Keras : YOLOv2]   
+MobileNet - This one also object detection in mobile created by google.     
+Ripe/unripe tomato classification - Rotten detection [Keras : VGG16]    
+Car classification - VGG16, VGG19 and InceptionV3     
+
+
+Pre-trained models for Facial Recognition and Regeneration 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Generation of a 3D modelled face from a closeup image of a face.The creation of 3D structured objects from mere two dimensional information is another thought out problem in the industry
+
+1.VGG-Face Model 
+vgg-face-keras: Directly convert the vgg-face model to a keras model.
+vgg-face-keras-fc: First convert the vgg-face Caffe model to a mxnet model, and then convert it to a keras model.
+
+2.3D Face Reconstruction from a Single Image 
+This model works in order to reconstruct the facial features into a 3 dimensional space.This pretrained model was originally developed using Torch and then transferred to Keras.
+
+Segmentation
+
+Semantic Image Segmentation 
++++++++++++++++++++++++++++
+ Deeplabv3+   (Semantic image segmentation is the task of assigning a semantic label to every single pixel in an image. These labels can be “sky”, “car”, “road”, “giraffe”, etc. What this technique does is it finds the outlines of objects and thus places restrictions on the accuracy requirements (this is what separates it from image level classification which has a much looser accuracy requirement) (Deeplabv3 is Google’s latest semantic image segmentation model. It was originally created using TensorFlow and has now been implemented using Keras).
+
+
+
+Robot Surgery Segmentation
++++++++++++++++++++++++++++
+
+This pretrained model is based on the U-Net network architecture and is further improved by using state-of-the-art semantic segmentation neural networks known as LinkNet and TernausNet. The model was trained on 8 × 225-frame sequences of high resolution stereo camera images.
+
+
+
+Image Captioning
+++++++++++++++++
+This is a VGG 16 pretrained model on the MS COCO dataset where the decoder is a long short-term memory (LSTM) network predicting the captions for the given image
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
